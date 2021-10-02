@@ -1,0 +1,38 @@
+<html lang="en" crosspilot="">
+<head>
+  <title>Kahoot Flood</title>
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<div id="body">
+  <div id="login-container">
+    <div id="login-form" class="modal-dialog modal-dialog-custom">
+
+      <div class="input-row">
+        <input class="input form-control" id="username" name="Username" placeholder="Username" type="text" value="" maxlength="20">
+        <span class="icon"><i class="far fa-user"></i></span>
+      </div>
+
+      <div class="input-row">
+        <input type="number" min="1000000" max="9999999" class="input form-control" id="pin" name="pin" placeholder="PIN" type="text" value="" maxlength="7">
+        <span class="icon"><i class="fas fa-hashtag"></i></span>
+      </div>
+
+      <div class="input-row">
+        <input type="number" min="1" max="999" class="input form-control" id="count" name="count" placeholder="Count" type="text" value="" maxlength="3">
+        <span class="icon"><i class="fas fa-sort-numeric-up-alt"></i></span>
+      </div>
+
+      <input type="submit" id="flood" value="Flood">
+      <input type="submit" id="leave" value="Leave">
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/31249f53f3.js" crossorigin="anonymous"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/script.js"></script>
+</html>
