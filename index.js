@@ -53,7 +53,7 @@ function Between(num, a, b) {
 
 
 async function Wait(milleseconds) {
-	return new Promise(resolve => setTimeout(resolve, milleseconds))
+    return new Promise(resolve => setTimeout(resolve, milleseconds))
 }
 
 
