@@ -44,7 +44,6 @@
     width: calc(100% - 42px);
     float: right;
     border-radius: 0px 4px 4px 0px;
-    cursor: url(../resources/arrow.png), auto;
 }
 
 #login-form .icon {
@@ -88,7 +87,6 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 900;
     font-size: 14px;
-    cursor: url(../resources/arrow.png), auto;
     transition: 0.3s;
 }
 
